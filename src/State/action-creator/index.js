@@ -17,12 +17,3 @@ export const withdrawMoney =(amount)=>{
         console.log(amount)
     }
 }
-
-export const addCard = (item)=>{
-    return(dispatch)=>{
-        dispatch({
-            type:"add",
-            payload: item
-        })
-    }
-}
